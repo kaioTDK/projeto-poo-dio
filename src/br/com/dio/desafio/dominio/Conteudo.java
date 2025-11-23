@@ -32,7 +32,6 @@ public abstract class Conteudo {
     public String toString() {
         return "Conteudo{" +
                 "titulo='" + titulo + '\'' +
-                ", descricao='" + descricao + '\'' +
-                '}';
+                ", descricao='" + descricao + '\'';
     }
 }
