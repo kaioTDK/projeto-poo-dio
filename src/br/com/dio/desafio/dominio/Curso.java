@@ -5,6 +5,13 @@ public class Curso extends Conteudo {
 
     public Curso(){};
 
+    public Curso(String titulo, String descricao, short cargaHoraria) {
+        super.setTitulo(titulo);
+        super.setDescricao(descricao);
+        this.cargaHoraria = cargaHoraria;
+
+    }
+
     @Override
     public double calcularXp(){
         return XP_PADRAO * cargaHoraria;
